@@ -6,8 +6,9 @@ body{
 .main{
     display: block;
     margin: auto;
-    width: 80rem;
+    width: 75rem;
     height: 60rem;
+    margin-top: 2rem;
 
 }
 .row1{
@@ -16,10 +17,34 @@ body{
 }
 
 .col1{
-         width: 15rem;
-         height: 17rem;
+         width: 20rem;
+         height: 15rem;
+}
+.col1 h1{
+    width: 15rem;
+color: hsl(300, 43%, 22%);
+} 
+.col1 p{
+    width: 19rem;
+    font-size: 12px;
+    line-height: 18px;
 }
 
+.col2{
+   width: 20rem;
+   align-items: center;
+   justify-content: start;
+}
+
+.stars{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+   
+    justify-content: space-between;
+
+    
+}
 
 
 
